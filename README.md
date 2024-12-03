@@ -24,6 +24,7 @@ npm install @firaloka/faker
 ```
 
 ## Semua Fungsi yang Tersedia
+- `randomName`
 - `randomInteger`
 - `arrayShuffle`
 
@@ -46,6 +47,26 @@ const max = 100;
 const result = randomInteger(min, max);
 
 console.log(result);
+```
+
+### 2. Menghasilkan Nama Acak
+Fungsi `randomName()` memungkinkan kamu untuk menghasilkan nama acak dengan dapat memilih jenis kelamin, dan secara default adalah acak:
+
+```typescript
+import { randomName } from '@firaloka/faker';
+
+async run() {
+  let result = await randomName(); // Acak, baik nama lelaki maupun perempuan
+  console.log(result);
+
+  result = await randomName("M"); // Nama lelaki
+  console.log(result);
+
+  result = await randomName("W"); // Nama perempuan
+  console.log(result);
+}
+
+run();
 ```
 
 ## Dokumentasi Lengkap
