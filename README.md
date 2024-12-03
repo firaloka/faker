@@ -22,3 +22,33 @@ yarn install @firaloka/faker
 ```bash
 npm install @firaloka/faker
 ```
+
+## Semua Fungsi yang Tersedia
+- `randomInteger`
+- `arrayShuffle`
+
+## Penggunaan
+Setelah berhasil menginstal paket **@firaloka/faker**, kamu dapat mulai menggunakannya dalam proyek JavaScript atau TypeScript. Berikut adalah beberapa contoh penggunaan dasar dari paket ini:
+
+### 1. Mengimpor Paket
+Untuk mulai menggunakan paket, kamu perlu mengimpor fungsi-fungsi yang tersedia. Berikut adalah cara mengimpornya:
+
+```typescript
+import { randomInteger } from '@firaloka/faker';
+```
+
+### 2. Menghasilkan Angka Acak
+Fungsi `randomInteger()` memungkinkan kamu untuk menghasilkan angka dengan batasan yang dapat diatur:
+
+```typescript
+const min = 0;
+const max = 100;
+const result = randomInteger(min, max);
+
+console.log(result);
+```
+
+## Dokumentasi Lengkap
+Untuk melihat daftar lengkap fungsi yang tersedia dalam paket **@firaloka/faker**, kamu bisa mengunjungi dokumentasi resminya di [npm](https://www.npmjs.com/package/@firaloka/faker) atau melihat kode sumber di GitHub.
+
+Semoga ini membantu! Jika ada pertanyaan lebih lanjut, jangan ragu untuk bertanya.
