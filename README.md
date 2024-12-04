@@ -27,21 +27,24 @@ npm install @firaloka/faker
 - `randomName`
 - `randomInteger`
 - `arrayShuffle`
+- `randomElementOfArray`
 
 ## Penggunaan
 Setelah berhasil menginstal paket **@firaloka/faker**, kamu dapat mulai menggunakannya dalam proyek JavaScript atau TypeScript. Berikut adalah beberapa contoh penggunaan dasar dari paket ini:
 
-### 1. Mengimpor Paket
+### Mengimpor Paket
 Untuk mulai menggunakan paket, kamu perlu mengimpor fungsi-fungsi yang tersedia. Berikut adalah cara mengimpornya:
 
 ```typescript
 import { randomInteger } from '@firaloka/faker';
 ```
 
-### 2. Menghasilkan Angka Acak
+### Menghasilkan Angka Acak
 Fungsi `randomInteger()` memungkinkan kamu untuk menghasilkan angka dengan batasan yang dapat diatur:
 
 ```typescript
+import { randomInteger } from '@firaloka/faker';
+
 const min = 0;
 const max = 100;
 const result = randomInteger(min, max);
@@ -49,7 +52,7 @@ const result = randomInteger(min, max);
 console.log(result);
 ```
 
-### 2. Menghasilkan Nama Acak
+### Menghasilkan Nama Acak
 Fungsi `randomName()` memungkinkan kamu untuk menghasilkan nama acak dengan dapat memilih jenis kelamin, dan secara default adalah acak:
 
 ```typescript
@@ -67,6 +70,18 @@ async run() {
 }
 
 run();
+```
+
+### Menghasilkan Element Acak dari Array
+Fungsi `randomElementOfArray()` memungkinkan kamu untuk menghasilkan angka dengan batasan yang dapat diatur:
+
+```typescript
+import { randomElementOfArray } from '@firaloka/faker';
+
+const friends = ["Eko", "Budi", "Andi"];
+const result = randomElementOfArray(friends);
+
+console.log(result);
 ```
 
 ## Dokumentasi Lengkap
