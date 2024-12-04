@@ -32,5 +32,5 @@ export default async (gender?: "M" | "W"):Promise<string> => {
   names = arrayShuffle(names);
   if (gender) names = names.filter(data => data.split(",")[1].includes(gender));
 
-  return names[0];
+  return names[0].split(",")[0];
 }
