@@ -4,6 +4,7 @@ import arrayShuffle from "./array/arrayShuffle";
 import randomElementOfArray from "./array/randomElementOfArray";
 
 import randomName from "./person/randomName";
+import randomGender from "./person/randomGender";
 
 export {
   randomInteger,
@@ -11,5 +12,6 @@ export {
   arrayShuffle,
   randomElementOfArray,
   
-  randomName
+  randomName,
+  randomGender
 }

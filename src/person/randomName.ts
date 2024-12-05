@@ -26,7 +26,7 @@ import arrayShuffle from "src/array/arrayShuffle";
  * const femaleName = await getRandomName("W");
  */
 export default async (gender?: "M" | "W"):Promise<string> => {
-  const path = "data/person/names.csv";
+  const path = "person/names.csv";
 
   let names:string[] = (await readText(path)).split("\n");
   names = arrayShuffle(names);

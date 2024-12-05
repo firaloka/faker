@@ -25,6 +25,7 @@ npm install @firaloka/faker
 
 ## Semua Fungsi yang Tersedia
 - `randomName`
+- `randomGender`
 - `randomInteger`
 - `arrayShuffle`
 - `randomElementOfArray`
@@ -70,6 +71,19 @@ async run() {
 }
 
 run();
+```
+
+### Menghasilkan Jenis Kelamin Acak
+Fungsi `randomGender()` memungkinkan kamu untuk menghasilkan acak jenis kelamin dan dapat diatur bahasanya:
+
+```typescript
+import { randomGender } from '@firaloka/faker';
+
+let result = randomGender();
+console.log(result); // Man atau Woman
+
+result = randomGender(true);
+console.log(result); // Pria atau Wanita
 ```
 
 ### Menghasilkan Element Acak dari Array

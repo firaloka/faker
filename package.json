@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "name": "@firaloka/faker",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "module": "src/index.ts",
   "type": "module",
   "publishConfig": {
