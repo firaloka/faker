@@ -8,6 +8,6 @@ describe("Fundamental", () => {
     const result = randomInteger(min, max);
 
     expect(result).toBeGreaterThanOrEqual(min);
-    expect(result).toBeLessThanOrEqual(100);
+    expect(result).toBeLessThanOrEqual(max);
   });
 });
