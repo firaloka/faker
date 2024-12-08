@@ -87,7 +87,7 @@ console.log(result); // Pria atau Wanita
 ```
 
 ### Menghasilkan Element Acak dari Array
-Fungsi `randomElementOfArray()` memungkinkan kamu untuk menghasilkan angka dengan batasan yang dapat diatur:
+Fungsi `randomElementOfArray()` memungkinkan untuk menghasilkan satu elemen acak dari sebuah array:
 
 ```typescript
 import { randomElementOfArray } from '@firaloka/faker';
