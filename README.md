@@ -59,18 +59,14 @@ Fungsi `randomName()` memungkinkan kamu untuk menghasilkan nama acak dengan dapa
 ```typescript
 import { randomName } from '@firaloka/faker';
 
-async run() {
-  let result = await randomName(); // Acak, baik nama lelaki maupun perempuan
-  console.log(result);
+let result = await randomName(); // Acak, baik nama lelaki maupun perempuan
+console.log(result);
 
-  result = await randomName("M"); // Nama lelaki
-  console.log(result);
+result = await randomName("M"); // Nama lelaki
+console.log(result);
 
-  result = await randomName("W"); // Nama perempuan
-  console.log(result);
-}
-
-run();
+result = await randomName("W"); // Nama perempuan
+console.log(result);
 ```
 
 ### Menghasilkan Jenis Kelamin Acak

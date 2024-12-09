@@ -1,5 +1,5 @@
-import readText from "@/utils/readText";
-import arrayShuffle from "src/array/arrayShuffle";
+import arrayShuffle from "@/array/arrayShuffle";
+import _name from "./data/_name";
 
 /**
  * Mengambil nama acak dari file CSV berdasarkan jenis kelamin yang dipilih.
@@ -17,20 +17,17 @@ import arrayShuffle from "src/array/arrayShuffle";
  * 
  * @example
  * // Mendapatkan nama acak tanpa filter jenis kelamin
- * const randomName = await getRandomName();
+ * const randomName = getRandomName();
  * 
  * // Mendapatkan nama acak untuk laki-laki
- * const maleName = await getRandomName("M");
+ * const maleName = getRandomName("M");
  * 
  * // Mendapatkan nama acak untuk perempuan
- * const femaleName = await getRandomName("W");
+ * const femaleName = getRandomName("W");
  */
-export default async (gender?: "M" | "W"):Promise<string> => {
-  const path = "person/names.csv";
+export default (gender?: "M" | "W"): string => {
+  let buffer = arrayShuffle(_name);
+  if (gender) buffer = buffer.filter(data => data[1] === gender);
 
-  let names:string[] = (await readText(path)).split("\n");
-  names = arrayShuffle(names);
-  if (gender) names = names.filter(data => data.split(",")[1].includes(gender));
-
-  return names[0].split(",")[0];
+  return buffer[0][0];
 }

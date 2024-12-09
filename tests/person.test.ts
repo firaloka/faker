@@ -2,15 +2,15 @@ import { describe, test, expect } from "bun:test";
 import { randomName, randomGender } from "../src";
 
 describe("Person", () => {
-  test("Memastikan randomName berfungsi", async () => {
-    let result = await randomName("W");
+  test("Memastikan randomName berfungsi", () => {
+    let result = randomName("W");
     expect(result).toBeString();
     
-    result = await randomName("M");
+    result = randomName("M");
     expect(result).toBeString();
   });
 
-  test("Memastikan randomGender berfungsi", async () => {
+  test("Memastikan randomGender berfungsi", () => {
     let result = randomGender();
     expect(["Man", "Woman"].includes(result)).toBeTruthy();
     

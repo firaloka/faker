@@ -25,7 +25,7 @@
     "noPropertyAccessFromIndexSignature": false,
     "baseUrl": ".",
     "paths": {
-      "@/utils/*": ["src/_utils/*"]
+      "@/array/*": ["src/array/*"]
     }
   }
 }
