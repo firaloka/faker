@@ -1,7 +1,8 @@
 {
   "license": "MIT",
   "name": "@firaloka/faker",
-  "version": "0.4.0",
+  "description": "Berguna untuk menghasilkan data dummy atau fake",
+  "version": "0.4.1",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "type": "module",
