@@ -59,13 +59,13 @@ Fungsi `randomName()` memungkinkan kamu untuk menghasilkan nama acak dengan dapa
 ```typescript
 import { randomName } from '@firaloka/faker';
 
-let result = await randomName(); // Acak, baik nama lelaki maupun perempuan
+let result = randomName(); // Acak, baik nama lelaki maupun perempuan
 console.log(result);
 
-result = await randomName("M"); // Nama lelaki
+result = randomName("M"); // Nama lelaki
 console.log(result);
 
-result = await randomName("W"); // Nama perempuan
+result = randomName("W"); // Nama perempuan
 console.log(result);
 ```
 
