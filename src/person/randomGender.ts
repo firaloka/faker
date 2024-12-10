@@ -1,4 +1,4 @@
-import randomElementOfArray from "src/array/randomElementOfArray";
+import randomElementOfArray from "../array/randomElementOfArray";
 
 /**
  * Mengembalikan jenis kelamin secara acak berdasarkan bahasa yang dipilih.

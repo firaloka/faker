@@ -1,4 +1,4 @@
-import arrayShuffle from "@/array/arrayShuffle";
+import arrayShuffle from "../array/arrayShuffle";
 import _name from "./data/_name";
 
 /**
