@@ -1,7 +1,7 @@
 # @firaloka/faker
 > Berguna untuk menghasilkan data dummy/fake/palsu guna untuk tahap pengembangan. Fungsi-fungsi yang ada dalam paket ini dirancang untuk menangani berbagai operasi umum seperti menghasilkan nama acak, angka acak, manipulasi data, dan lainnya.
 
-Paket ini dibuat dengan menggunakan runtime **bun**, yang memberikan performa cepat dalam pengelolaan paket dan eksekusi kode JavaScript. Namun tetap bisa berjalan pada NodeJS.
+Paket ini dibuat dengan menggunakan runtime **bun**, yang memberikan performa cepat dalam pengelolaan paket dan eksekusi kode JavaScript. Namun tetap bisa berjalan pada **NodeJS**.
 
 ## Instalasi
 Untuk menggunakan paket ini, kamu bisa menggunakan bun, pnpm, yarn, atau npm.
