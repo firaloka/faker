@@ -1,5 +1,5 @@
 # @firaloka/faker
-**@firaloka/faker** adalah paket npm yang berisi kumpulan fungsi utilitas untuk mempermudah pengembangan aplikasi JavaScript/TypeScript. Fungsi-fungsi yang ada dalam paket ini dirancang untuk menangani berbagai operasi umum seperti menghasilkan nama acak, angka acak, manipulasi data, dan lainnya.
+> Berguna untuk menghasilkan data dummy/fake/palsu guna untuk tahap pengembangan. Fungsi-fungsi yang ada dalam paket ini dirancang untuk menangani berbagai operasi umum seperti menghasilkan nama acak, angka acak, manipulasi data, dan lainnya.
 
 Paket ini dibuat dengan menggunakan runtime **bun**, yang memberikan performa cepat dalam pengelolaan paket dan eksekusi kode JavaScript.
 
