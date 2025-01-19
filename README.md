@@ -98,7 +98,7 @@ console.log(result);
 ```
 
 ### Menghasilkan Nomor Telpon Indonesia
-Fungsi `randomPhoneNumber()` memungkinkan untuk menghasilkan satu elemen acak dari sebuah array:
+Fungsi `randomPhoneNumber()` memungkinkan untuk menghasilkan nomor telpon valid Indonesia:
 
 ```typescript
 import { randomPhoneNumber } from '@firaloka/faker';
