@@ -6,6 +6,8 @@ import randomElementOfArray from "./array/randomElementOfArray";
 import randomName from "./person/randomName";
 import randomGender from "./person/randomGender";
 
+import randomPhoneNumber from "./phone/randomPhoneNumber";
+
 export {
   randomInteger,
 
@@ -13,5 +15,7 @@ export {
   randomElementOfArray,
   
   randomName,
-  randomGender
+  randomGender,
+
+  randomPhoneNumber
 }

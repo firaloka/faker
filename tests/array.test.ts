@@ -1,5 +1,5 @@
 import { describe, test, expect } from "bun:test";
-import { arrayShuffle, randomElementOfArray } from "../src";
+import { arrayShuffle, randomElementOfArray } from "src";
 
 describe("Array", () => {
   test("Memastikan arrayShuffle berfungsi", () => {

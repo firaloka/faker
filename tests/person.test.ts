@@ -1,5 +1,5 @@
 import { describe, test, expect } from "bun:test";
-import { randomName, randomGender } from "../src";
+import { randomName, randomGender } from "src";
 
 describe("Person", () => {
   test("Memastikan randomName berfungsi", () => {

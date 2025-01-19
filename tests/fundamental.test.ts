@@ -1,5 +1,5 @@
 import { describe, test, expect } from "bun:test";
-import { randomInteger } from "../src";
+import { randomInteger } from "src";
 
 describe("Fundamental", () => {
   test("Memastikan randomInteger berfungsi", () => {
