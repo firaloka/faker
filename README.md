@@ -29,6 +29,7 @@ npm install @firaloka/faker
 - `randomName`
 - `randomGender`
 - `randomInteger`
+- `randomBoolean`
 - `arrayShuffle`
 - `randomElementOfArray`
 - `randomPhoneNumber`
@@ -70,6 +71,16 @@ console.log(result);
 
 result = randomName("W"); // Nama perempuan
 console.log(result);
+```
+
+### Menghasilkan Boolean Acak
+Fungsi `randomBoolean()` memungkinkan kamu untuk menghasilkan boolean acak:
+
+```typescript
+import { randomBoolean } from '@firaloka/faker';
+
+let const = randomGender();
+console.log(result); // true atau false
 ```
 
 ### Menghasilkan Jenis Kelamin Acak

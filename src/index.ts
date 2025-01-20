@@ -1,4 +1,5 @@
 import randomInteger from "./fundamental/randomInteger";
+import randomBoolean from "./fundamental/randomBoolean";
 
 import arrayShuffle from "./array/arrayShuffle";
 import randomElementOfArray from "./array/randomElementOfArray";
@@ -10,6 +11,7 @@ import randomPhoneNumber from "./phone/randomPhoneNumber";
 
 export {
   randomInteger,
+  randomBoolean,
 
   arrayShuffle,
   randomElementOfArray,
