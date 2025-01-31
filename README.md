@@ -79,7 +79,7 @@ Fungsi `randomBoolean()` memungkinkan kamu untuk menghasilkan boolean acak:
 ```typescript
 import { randomBoolean } from '@firaloka/faker';
 
-let const = randomGender();
+let result = randomGender();
 console.log(result); // true atau false
 ```
 
